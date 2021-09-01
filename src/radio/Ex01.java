@@ -39,6 +39,5 @@ public class Ex01 extends Application {
 		arg0.setScene(new Scene(hbox));
 		arg0.setTitle("radiobutton");
 		arg0.show();
-		
 	}
 }
