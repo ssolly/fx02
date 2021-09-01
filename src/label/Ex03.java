@@ -35,7 +35,7 @@ public class Ex03 extends Application {
 		hbox.getChildren().add(lb1);
 		hbox.setPrefSize(100, 100);
 		
-		lb1.setWrapText(true);		//틀 안에 글씨가 채워지는 설정
+		lb1.setWrapText(true);		//틀 안에 글씨가 채워지는 설정 : 창이 움직임에 따라 글씨가 사라지지 않음
 		lb1.setFont(new Font(20));	//폰트 크기 설정
 		lb1.setRotate(60);			//폰트 각도(돌리기) 설정
 		lb1.setTranslateY(80);		//각도를 돌린 후 글씨가 짤릴 때 y축(세로)을 길게 내려준다
